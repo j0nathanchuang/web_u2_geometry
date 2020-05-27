@@ -4,10 +4,18 @@
   https://www.the-cs.org/ | https://codeconnects.org/
 */
 
+/*STYLE FOR SECTIONS OF WEB PAGE*/
 body {
   background-color: #d3d3d3;
 }
 
+footer {
+  background-color: #adadad;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/*STYLE FOR TEXT*/
 h1 {
   padding-top: 10px;
   text-align: center;
@@ -24,12 +32,13 @@ h4 {
   color: #0096b3;
 }
 
-/*nav {
-  display: block;
-  text-align: center;
-  border: none;
-}*/
+p {
+  padding-left: 90px;
+  padding-right: 90px;
+  font-size: 12pt;
+}
 
+/*STYLE FOR NAVIGATION BAR*/
 ul {
   list-style-type: none;
   margin: 0;
@@ -66,10 +75,12 @@ li a:hover {
   background-color: #00b3a4;
 }*/
 
-p {
-  padding-left: 90px;
-  padding-right: 90px;
-  font-size: 30pt;
+/*STYLE FOR IMAGES*/
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 /*Column class*/
