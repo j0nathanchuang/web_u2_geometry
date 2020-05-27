@@ -1,0 +1,68 @@
+/*
+  Project created by Jonathan Chuang
+  For The Coding School JS Web Dev Curriculum Unit 2
+  https://www.the-cs.org/ | https://codeconnects.org/
+*/
+
+body {
+  background-color: #d3d3d3;
+}
+
+h1 {
+  padding-top: 10px;
+  text-align: center;
+  color: #0069b3;
+}
+
+h4 {
+  text-align: center;
+  color: #0096b3;
+}
+
+/*nav {
+  display: block;
+  text-align: center;
+  border: none;
+}*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #eee;
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+  cursor: pointer;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px 39.8px;
+  text-decoration: none;
+  font-size: 20pt;
+}
+
+li a:hover {
+  background-color: #00cdbb;
+}
+
+/*li a:hover:not(.active) {
+  background-color: #00cdbb;
+}
+
+.active {
+  background-color: #00b3a4;
+}*/
+
+p {
+  padding-left: 90px;
+  padding-right: 90px;
+  font-size: 30pt;
+}
