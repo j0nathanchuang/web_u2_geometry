@@ -38,9 +38,21 @@ JavaScript is used to interact with the HTML code. Here are important APIs you w
 * `document.getElementById("idName")` returns an object with that id 
 * `document.getElementsByName("name")` returns an array of objects with the name
 * `.innerHTML` use this to modify the words
+
 **Example:**
 ```
-//TODO
+//Store object in variable and modify HTML separately
+var temp = document.getElementById('id'); 
+temp.innerHTML = "Changed text";
+
+//Don't store object, modify directly
+document.getElementById('id').innerHTML = "Changed text";
+
+//Concatenate string to existing string
+document.getElementById('id').innerHTML += "Add text";
+
+//Almost exact same process for names
+document.getElementsByName('name')[0].innerHTML = "Changed text"; //Remember it is an array so you need to index
 ```
 **Tip:** Remember to get the capitalization and spelling correct when using these APIs or else your code won't work.
 
