@@ -29,3 +29,21 @@ He has created the HTML page and CSS file but did not have time to create the co
 3. From "starer_code" folder, copy & paste each files content in to the corresponding spots for HTML, CSS, and JS code on CodePen
 
 :scream: **The images will not load using this method**
+
+## Before starting
+### HTML
+If you've checked out the HTML code, you'll notice some things that we have yet to cover in our lessons: id tags & events.
+### JavaScript
+JavaScript is used to interact with the HTML code. Here are important APIs you will have to use to complete the project:
+* `document.getElementById("idName")` returns an object with that id 
+* `document.getElementsByName("name")` returns an array of objects with the name
+* `.innerHTML` use this to modify the words
+**Example:**
+```
+//TODO
+```
+**Tip:** Remember to get the capitalization and spelling correct when using these APIs or else your code won't work.
+
+## Getting started
+* Get familiar with the HTML and CSS code
+* Locate the id tags & name tags
