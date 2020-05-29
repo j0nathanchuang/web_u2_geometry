@@ -105,7 +105,7 @@ function cube() {
   //Prompt user for side length
   var side = prompt("Enter side length: ");
   //Calculate volume - use power function
-  var volume = 6 * power(side, 2);
+  var volume = power(side, 3);
   //Change innerHTML
   document.getElementById("cubeAns").innerHTML += volume;
 }
