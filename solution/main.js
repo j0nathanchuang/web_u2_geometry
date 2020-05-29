@@ -7,6 +7,19 @@
 function fixHeadings() {
   //HINT: Use the API that can get all of the name tags
 
+  //Get all of the errors and store into array
+  var errors = document.getElementsByName("error");
+  //Loop through errors
+  for (var i = 0; i < errors.length; i++) {
+    //if it currently says area, change to volume
+    if (errors[i].innerHTML == "Area Calculator") {
+      errors[i].innerHTML = "Volume Calculator";
+    }
+    //else - it currently says volume, change to area
+    else {
+      errors[i].innerHTML = "Area Calculator";
+    }
+  }
 }
 
 /*
