@@ -24,7 +24,7 @@ h1 {
 
 h2 {
   text-align: center;
-  color: #b34a00;
+  color: #003f3f;
 }
 
 h4 {
@@ -35,7 +35,11 @@ h4 {
 p {
   padding-left: 90px;
   padding-right: 90px;
-  font-size: 12pt;
+  font-size: 14pt;
+}
+
+strong {
+  font-size: 24pt;
 }
 
 /*STYLE FOR NAVIGATION BAR*/
@@ -67,20 +71,33 @@ li a:hover {
   background-color: #00cdbb;
 }
 
-/*li a:hover:not(.active) {
-  background-color: #00cdbb;
-}
-
-.active {
-  background-color: #00b3a4;
-}*/
-
 /*STYLE FOR IMAGES*/
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+/*STYLE FOR BUTTONS*/
+button {
+  display: block;
+  background-color: white;
+  color: #262626;
+  border: 2px solid #00b300;
+  padding: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  border-radius: 30px;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00b300;
+  color: white;
 }
 
 /*Column class*/
