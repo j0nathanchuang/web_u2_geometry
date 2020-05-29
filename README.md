@@ -51,6 +51,10 @@ document.getElementById('id').innerHTML = "Changed text";
 //Concatenate string to existing string
 document.getElementById('id').innerHTML += "Add text";
 
+//Store array of name tags & modify 3rd element's innerHTML
+var array = document.getElementsByName('name');
+array[2].innerHTML = "Changed text";
+
 //Almost exact same process for names
 document.getElementsByName('name')[0].innerHTML = "Changed text"; //Remember it is an array so you need to index
 ```
@@ -59,3 +63,22 @@ document.getElementsByName('name')[0].innerHTML = "Changed text"; //Remember it 
 ## Getting started
 * Get familiar with the HTML and CSS code
 * Locate the id tags & name tags
+
+## Testing
+A good practice is to test frequently and to test small. What that means is that don't write too much code before testing if it works. For this project, I recommend writing one function at a time and testing it if it works with your own input. When you write the next function, make sure the new function and previous functions are all working, not just the new one.
+**Pro Tip:** Use `console.log()` if you're having trouble figuring out the error. Sometimes your error is simply a spelling error - so save time debugging with `console.log()`.
+
+### Test cases
+You can and should come up with your own test cases! This is a sample test that may not catch all possible bugs.
+1. Square 2 - correct: 4
+2. Rectangle 2, 4 - correct: 8
+3. Circle 3 - correct: 28.27...
+4. Triangle 3, 2 - correct: 3
+5. Cube 2 - correct: 8
+6. Cylinder 3, 3 - correct: 84.82...
+7. Sphere 2 - correct: 33.51...
+8. Cone 2, 2 - correct: 8.37...
+9. Fix headings - just click the button to test
+
+## Solution
+The solution can be found in the solution folder. Keep in mind that there are so many ways to implement each function so as long as yours works it's correct! To use the answer key, locate the script tag in `index.html` and read the comment on how to change which script to use.
