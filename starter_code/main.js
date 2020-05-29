@@ -36,6 +36,7 @@ function rectangle() {
 /*
  * Purpose: Prompt the user for the radius, calculate the area, and
  *          change the text from "The area is: " to "The area is: [area]"
+ * Tip: Use Math.PI for pi
  */
 function circle() {
 
@@ -60,6 +61,7 @@ function cube() {
 /*
  * Purpose: Prompt the user for the radius & height, calculate the volume, and
  *          change the text from "The volume is: " to "The volume is: [volume]"
+ * Tip: Use Math.PI for pi
  */
 function cylinder() {
 
@@ -68,6 +70,7 @@ function cylinder() {
 /*
  * Purpose: Prompt the user for the radius, calculate the volume, and
  *          change the text from "The volume is: " to "The volume is: [volume]"
+ * Tip: Use Math.PI for pi
  */
 function sphere() {
 
@@ -76,6 +79,7 @@ function sphere() {
 /*
  * Purpose: Prompt the user for the radius & height, calculate the volume, and
  *          change the text from "The volume is: " to "The volume is: [volume]"
+ * Tip: Use Math.PI for pi
  */
 function cone() {
 
