@@ -13,7 +13,7 @@ Project created by [Jonathan Chuang](https://jonathanchuang.me)
 * [Solution](https://github.com/j0nathanchuang/web_u2_geometry#solution)
 
 ## Project Goal
-This project will serve as a bridge between JavaScript and its compatibility with HTML. In further units, you will really dive into interactivity with JavaScript but this project will explore some basic tools to allow you to see how JS can change what you see on a web page.
+This project will serve as a bridge between JavaScript and its compatibility with HTML. In further units, you will really dive into interactivity with JavaScript but this project will explore some basic tools to allow you to see how JS can change what you see on a web page. The main purpose is for you to be able to apply what you've learned so far and see tangible results.
 
 **Suggested prerequisites:** Completion of lessons 1,2, and 3 of unit 2
 
@@ -36,26 +36,42 @@ He has created the HTML page and CSS file but did not have time to create the co
 ## Don't want to download the files?
 1. Go to [CodePen](https://codepen.io/)
 2. On the top left of the page, click "Start Coding"
-3. From "starer_code" folder, copy & paste each files content in to the corresponding spots for HTML, CSS, and JS code on CodePen
+3. From "starter_code" folder, copy & paste each files content in to the corresponding spots for HTML, CSS, and JS code on CodePen
 
 :scream: **The images will not load using this method**
 
 ## Before starting
+### Text Editor
+If you've chosen CodePen in the previous step, you may ignore this section.
+
+To actually edit the code, you will need to use a text editor. If you already have a text editor or IDE downloaded, you may use that, or if you are comfortable editing from vim or gedit in your terminal that works too.
+
+If not, here are some suggestions:
+* [CodePen](https://codepen.io/) - You can just edit your code on this if you don't want to download a text editor
+* [Atom](https://atom.io/) - This is my favorite text editor, it has really nice themes and built-in [syntax highlighting](https://en.wikipedia.org/wiki/Syntax_highlighting)
+* [VSCode](https://code.visualstudio.com/download) - This is an IDE for Windows, Mac, and Linux systems. If you're planning on using code that requires a compiler in the future, this would be a good option. 
+
 ### HTML
 If you've checked out the HTML code, you'll notice some things that we have yet to cover in our lessons: id/name tags & events.
 
 **Tags:**
 ```
-//TODO
+<!--id/name tags come after HTML tags-->
+<p id="paragraph" name="text">This is a paragraph.</p>
 ```
+The main difference between an id tag and a name tag is the amount of them in your file. The convention is that you use an id tag if you want that object to be unique to everything else. Think about it as a ID number, you don't want someone else sharing the same ID number as you or else how would you be able to identify yourself? Name tags are used when you want multiple objects to share the same tag. In this case, think about an online store selling Apple products and Android products. If a customer only wants Apple products, he should be able to browse the store based on its name "Apple". An iPad and an iPhone may be different products but they're under the same company name "Apple".
+
+In short, id tag means one unique object and name tags mean an array of objects.
 
 **Events:**
 ```
-//TODO
+<!--There are hundreds of events but we only use onclick in our project-->
+<button onclick="doSomething()">Button!</button>
 ```
+Events also come after HTML tags. Events are different actions that the user may do when he/she is on your web page. In this instance, if the user clicks on the button, the function `doSomething()` will run.  
 
 ### JavaScript
-JavaScript is used to interact with the HTML code. Here are important APIs you will have to use to complete the project:
+JavaScript is used to interact with the HTML code. Id/name tags are used so your JavaScript code knows which element(s) you are referring to. Here are important APIs that locate these tags that you will have to use to complete the project:
 * `document.getElementById("idName")` returns an object with that id 
 * `document.getElementsByName("name")` returns an array of all the objects with the same name tag
 * `.innerHTML` use this to modify the text on the web page
@@ -84,6 +100,7 @@ document.getElementsByName('name')[0].innerHTML = "Changed text"; //Remember it 
 ## Getting started
 * Get familiar with the HTML and CSS code
 * Locate the id tags & name tags
+* Don't change any of the HTML/CSS files until you finish correctly implementing `main.js`, you may tinker with these files after and try to make the web page do more things or look better!
 * Get familiar with all of the function descriptions in `main.js`, each one tells you what the function needs to do
 * The `power()` function is already implemented, the reason is that we want you to get familiar with reusing functions that you implemented in other functions
 * Your job is to implement the 9 incompleted functions in `main.js` 
