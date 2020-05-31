@@ -39,6 +39,10 @@ function square() {
   document.getElementById("squareAns").innerHTML = "The area is: ";
   //Prompt user for side length
   var side = prompt("Enter side length: ");
+  //If user inputs text instead of a number, prompt user again
+  while (isNaN(side)) {     //We use a while loop because the user could keep doing this
+    side = prompt("Please enter a number. Enter side length: ");
+  }
   //Calculate area - use power function
   var area = power(side, 2);
   //Change innerHTML
@@ -54,8 +58,16 @@ function rectangle() {
   document.getElementById("rectAns").innerHTML = "The area is: ";
   //Prompt user for 1st side length
   var side1 = prompt("Enter 1st side length: ");
+  //If user inputs text instead of a number, prompt user again
+  while (isNaN(side1)) {
+    side1 = prompt("Please enter a number. Enter 1st side length: ");
+  }
   //Prompt user for 2nd side length
   var side2 = prompt("Enter 2nd side length: ");
+  //If user inputs text instead of a number, prompt user again
+  while (isNaN(side2)) {
+    side2 = prompt("Please enter a number. Enter 2nd side length: ");
+  }
   //Calculate area
   var area = side1 * side2;
   //Change innerHTML
@@ -72,6 +84,10 @@ function circle() {
   document.getElementById("circAns").innerHTML = "The area is: ";
   //Prompt user for radius
   var radius = prompt("Enter radius: ");
+  //If user inputs text instead of a number, prompt user again
+  while (isNaN(radius)) {
+    radius = prompt("Please enter a number. Enter radius: ");
+  }
   //Calculate area - use power function
   var area = Math.PI * power(radius, 2);
   //Change innerHTML
@@ -87,8 +103,16 @@ function triangle() {
   document.getElementById("triAns").innerHTML = "The area is: ";
   //Prompt user for base
   var base = prompt("Enter base: ");
+  //If user inputs text instead of a number, prompt user again
+  while (isNaN(base)) {
+    base = prompt("Please enter a number. Enter base: ");
+  }
   //Prompt user for height
   var height = prompt("Enter height: ");
+  //If user inputs text instead of a number, prompt user again
+  while (isNaN(height)) {
+    height = prompt("Please enter a number. Enter height: ");
+  }
   //Calculate area
   var area = base * height;
   //Change innerHTML
@@ -104,6 +128,10 @@ function cube() {
   document.getElementById("cubeAns").innerHTML = "The volume is: ";
   //Prompt user for side length
   var side = prompt("Enter side length: ");
+  //If user inputs text instead of a number, prompt user again
+  while (isNaN(side)) {
+    side = prompt("Please enter a number. Enter side length: ");
+  }
   //Calculate volume - use power function
   var volume = power(side, 3);
   //Change innerHTML
@@ -120,8 +148,16 @@ function cylinder() {
   document.getElementById("cylAns").innerHTML = "The volume is: ";
   //Prompt user for radius
   var radius = prompt("Enter radius: ");
+  //If user inputs text instead of a number, prompt user again
+  while (isNaN(radius)) {
+    radius = prompt("Please enter a number. Enter radius: ");
+  }
   //Prompt user for height
   var height = prompt("Enter height: ");
+  //If user inputs text instead of a number, prompt user again
+  while (isNaN(height)) {
+    height = prompt("Please enter a number. Enter height: ");
+  }
   //Calculate volume - use power function
   var volume = Math.PI * power(radius, 2) * height;
   //Change innerHTML
@@ -138,6 +174,10 @@ function sphere() {
   document.getElementById("sphereAns").innerHTML = "The volume is: ";
   //Prompt user for radius
   var radius = prompt("Enter radius: ");
+  //If user inputs text instead of a number, prompt user again
+  while (isNaN(radius)) {
+    radius = prompt("Please enter a number. Enter radius: ");
+  }
   //Calculate volume - use power function
   var volume = (4 / 3) * Math.PI * power(radius, 3);
   //Change innerHTML
@@ -154,8 +194,16 @@ function cone() {
   document.getElementById("coneAns").innerHTML = "The volume is: ";
   //Prompt user for radius
   var radius = prompt("Enter radius: ");
+  //If user inputs text instead of a number, prompt user again
+  while (isNaN(radius)) {
+    radius = prompt("Please enter a number. Enter radius: ");
+  }
   //Prompt user for height
   var height = prompt("Enter height: ");
+  //If user inputs text instead of a number, prompt user again
+  while (isNaN(height)) {
+    height = prompt("Please enter a number. Enter height: ");
+  }
   //Calculate volume - use power function
   var volume = (1 / 3) * Math.PI * power(radius, 2) * height;
   //Change innerHTML
