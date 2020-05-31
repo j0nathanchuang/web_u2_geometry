@@ -10,6 +10,7 @@ Project created by [Jonathan Chuang](https://jonathanchuang.me)
 * [Before Starting](https://github.com/j0nathanchuang/web_u2_geometry#before-starting)
 * [Getting Started](https://github.com/j0nathanchuang/web_u2_geometry#getting-started)
 * [Testing Your Code](https://github.com/j0nathanchuang/web_u2_geometry#testing)
+* [Error Checking](https://github.com/j0nathanchuang/web_u2_geometry#error-checking)
 * [Solution](https://github.com/j0nathanchuang/web_u2_geometry#solution)
 
 ## Project Goal
@@ -103,7 +104,8 @@ document.getElementsByName('name')[0].innerHTML = "Changed text"; //Remember it 
 * Don't change any of the HTML/CSS files until you finish correctly implementing `main.js`, you may tinker with these files after and try to make the web page do more things or look better!
 * Get familiar with all of the function descriptions in `main.js`, each one tells you what the function needs to do
 * The `power()` function is already implemented, the reason is that we want you to get familiar with reusing functions that you implemented in other functions
-* Your job is to implement the 9 incompleted functions in `main.js` 
+* Your job is to implement the 9 incompleted functions in `main.js` - each function will require usage of at least one of the APIs mentioned above
+* For the 8 functions that calculate area or volume, keep in mind that the user should be able to keep using the same shape and get the correct result in the corret place each time. **Example:** If the user wants to use the square function 10 times, all 10 times should be correct and it should not affect the rectangle section of the web page.
 
 The end goal is a fully functional web page where the user can work out all of his geometry homework problems correctly. Good luck!
 
@@ -123,6 +125,18 @@ You can and should come up with your own test cases! This is a sample test that 
 7. Sphere 2 - correct: 33.51...
 8. Cone 2, 2 - correct: 8.37...
 9. Fix headings - just click the button to test
+
+## Error checking
+Once you've finished testing and everything seems to be correct, try this input: what happens when you click on "Calculate Square" and you type in "Pizza" in the prompt? If your result is "The area is: NaN", you've one more step before finishing.
+
+We want to constrain the user to only be able to type in numbers into the prompt so our functions work as they're intended. Thus we need to use JavaScript's built-in `isNaN()` method. 
+```
+//Usage: isNaN(value);
+//NaN stands for not a number
+isNaN(19); //returns true
+isNaN("hello"); //returns false
+```
+Use `isNaN()` in each of your area/volume functions to ensure that the user only inputs numbers and will be prompted to re-input if the user continuously inputs words 
 
 ## Solution
 The solution can be found in the solution folder. Keep in mind that there are many different ways to implement each function so as long as yours works it's correct! To use the answer key, locate the script tag in `index.html` and read the comment on how to change which script to use.
