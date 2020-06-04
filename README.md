@@ -5,7 +5,7 @@ Project created by [Jonathan Chuang](https://jonathanchuang.me)
 ## Table of Contents
 * [Project Goal](https://github.com/j0nathanchuang/web_u2_geometry#project-goal)
 * [Overview](https://github.com/j0nathanchuang/web_u2_geometry#overview)
-* [Using Repl.it](https://github.com/j0nathanchuang/web_u2_geometry#repl.it)
+* [Using Repl.it](https://github.com/j0nathanchuang/web_u2_geometry#replit)
 * [Download Files Locally](https://github.com/j0nathanchuang/web_u2_geometry#how-to-download-start-files-locally)
 * [Using CodePen](https://github.com/j0nathanchuang/web_u2_geometry#codepen)
 * [Before Starting](https://github.com/j0nathanchuang/web_u2_geometry#before-starting)
