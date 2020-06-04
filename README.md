@@ -5,8 +5,9 @@ Project created by [Jonathan Chuang](https://jonathanchuang.me)
 ## Table of Contents
 * [Project Goal](https://github.com/j0nathanchuang/web_u2_geometry#project-goal)
 * [Overview](https://github.com/j0nathanchuang/web_u2_geometry#overview)
-* [Download Starter Files](https://github.com/j0nathanchuang/web_u2_geometry#how-to-download-start-files)
-* [CodePen Alternative](https://github.com/j0nathanchuang/web_u2_geometry#dont-want-to-download-the-files)
+* [Using Repl.it](https://github.com/j0nathanchuang/web_u2_geometry#repl.it)
+* [Download Files Locally](https://github.com/j0nathanchuang/web_u2_geometry#how-to-download-start-files-locally)
+* [Using CodePen](https://github.com/j0nathanchuang/web_u2_geometry#codepen)
 * [Before Starting](https://github.com/j0nathanchuang/web_u2_geometry#before-starting)
 * [Getting Started](https://github.com/j0nathanchuang/web_u2_geometry#getting-started)
 * [Testing Your Code](https://github.com/j0nathanchuang/web_u2_geometry#testing)
@@ -27,14 +28,23 @@ Your teacher needs your help! He wants to teach his students about geometry, spe
 
 He has created the HTML page and CSS file but did not have time to create the corresponding JavaScript file. Can you help him out?
 
-## How to download start files
+## Repl.it
+This is 1 of 3 options to load the repository to start editing the code.
+1. Go to [Repl.it](https://repl.it)
+2. On the top right of the page, click on "Start Coding"
+3. On the pop-up, select "Import from GitHub"
+4. Copy and paste the [repository URL](https://github.com/j0nathanchuang/web_u2_geometry/)
+5. On the top right box, it will ask you for the language, use "HTML, CSS, JavaScript", for "run button", use "index.html"
+6. Drag all 3 files out from the starter_code folder and click "Run" on the top of the page 
+
+## How to download start files locally
 1. Near the top right of the page, locate the "Clone or download" button. It should be bright green.
 2. Click the button.
 3. A mini-screen should pop up. Click "Download ZIP".
 4. Open "Finder" or "File Explorer" on your desktop and drag the ZIP file to where you want to store these files.
 5. Click on the ZIP files to unzip all of the files.
 
-## Don't want to download the files?
+## CodePen
 1. Go to [CodePen](https://codepen.io/)
 2. On the top left of the page, click "Start Coding"
 3. From "starter_code" folder, copy & paste each files content in to the corresponding spots for HTML, CSS, and JS code on CodePen
@@ -43,7 +53,7 @@ He has created the HTML page and CSS file but did not have time to create the co
 
 ## Before starting
 ### Text Editor
-If you've chosen CodePen in the previous step, you may ignore this section.
+If you've chosen Repl.it or CodePen in the previous step, you may ignore this section.
 
 To actually edit the code, you will need to use a text editor. If you already have a text editor or IDE downloaded, you may use that, or if you are comfortable editing from vim or gedit in your terminal that works too.
 
